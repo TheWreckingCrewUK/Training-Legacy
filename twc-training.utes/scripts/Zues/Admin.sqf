@@ -1,4 +1,4 @@
-_curator = Admin;
+_curator = Admin_Logged;
 _addCivilians = True;
 
 //adds objects placed in editor:
