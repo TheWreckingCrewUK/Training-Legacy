@@ -1,3 +1,5 @@
+execVM "scripts\Zues\Admin.sqf";
+execVM "scripts\Zues\Zues.sqf";
 execVM "scripts\Zues\Zues1.sqf";
 execVM "scripts\Zues\Zues2.sqf";
 execVM "scripts\Zues\Zues3.sqf";

@@ -1,4 +1,4 @@
-_curator = Zues_Hobbs;
+_curator = Zeus_Hobbs;
 _addCivilians = True;
 
 //adds objects placed in editor:
