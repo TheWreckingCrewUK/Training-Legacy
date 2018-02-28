@@ -1,17 +1,5 @@
 execVM "scripts\weaponLists\crates\modern.sqf";
 
-"ERA" addPublicVariableEventHandler {
-	_newEra = _this select 1;
-	
-	switch (_newEra) do {
-		case 0: {execVM "scripts\weaponLists\crates\modern.sqf";};
-		case 1: {execVM "scripts\weaponLists\crates\coin.sqf";};
-		case 2: {execVM "scripts\weaponLists\crates\coldwar.sqf";};
-		case 3: {execVM "scripts\weaponLists\crates\1990.sqf";};
-		default {diag_log format ["%1, %2", time, "An error occured when attempting to switch era."];};
-	};
-};
-
 "timeOfDay" addPublicVariableEventHandler {
 	_newTime = _this select 1;
 	
@@ -37,6 +25,6 @@ execVM "scripts\weaponLists\crates\modern.sqf";
 
 if(isNil "cprAnnie") then { execVM "scripts\medical\createAnnie.sqf";};
 
- "medicalPacket" addPublicVariableEventHandler {
+"medicalPacket" addPublicVariableEventHandler {
 	_null = [_this select 1] execVM "scripts\medical\damageAnnie.sqf";
-  };
+};

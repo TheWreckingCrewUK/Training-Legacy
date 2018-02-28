@@ -96,12 +96,11 @@ _RangeBoxRifle AddWeaponCargoGlobal ["UK3CB_BAF_L85A2_RIS",20];
 _RangeBoxRifle AddWeaponCargoGlobal ["UK3CB_BAF_L85A2",20];
 _RangeBoxRifle AddWeaponCargoGlobal ["ACE_VMH3",20];
 
-_RangeBoxAT AddWeaponCargoGlobal ["UK3CB_BAF_NLAW_Launcher",20];
+_RangeBoxAT AddWeaponCargoGlobal ["launch_NLAW_F",20];
 _RangeBoxAT AddWeaponCargoGlobal ["UK3CB_BAF_AT4_CS_AT_Launcher",20];
-_RangeBoxAT AddWeaponCargoGlobal ["HAFM_LAW",20];
-_RangeBoxAT AddWeaponCargoGlobal ["TWC_Carl_Gustav",20];
-_RangeBoxAT AddMagazineCargoGlobal ["tf47_m3maaws_HE",20];
-_RangeBoxAT AddMagazineCargoGlobal ["tf47_m3maaws_HEAT",20];
+_RangeBoxAT AddWeaponCargoGlobal ["twc_l14A1_scoped",20];
+_RangeBoxAT AddMagazineCargoGlobal ["ukcw_l14a1_HE",20];
+_RangeBoxAT AddMagazineCargoGlobal ["ukcw_l14a1_HEAT",20];
 
 _RangeBoxSniper AddItemCargoGlobal ["ACE_Kestrel4500",10];
 _RangeBoxSniper AddItemCargoGlobal ["ACE_ATragMX",10];
@@ -137,12 +136,11 @@ _RangeBoxRifle1 AddWeaponCargoGlobal ["UK3CB_BAF_L85A2_RIS",20];
 _RangeBoxRifle1 AddWeaponCargoGlobal ["UK3CB_BAF_L85A2",20];
 _RangeBoxRifle1 AddWeaponCargoGlobal ["ACE_VMH3",20];
 
-_RangeBoxAT1 AddWeaponCargoGlobal ["UK3CB_BAF_NLAW_Launcher",20];
+_RangeBoxAT1 AddWeaponCargoGlobal ["launch_NLAW_F",20];
 _RangeBoxAT1 AddWeaponCargoGlobal ["UK3CB_BAF_AT4_CS_AT_Launcher",20];
-_RangeBoxAT1 AddWeaponCargoGlobal ["HAFM_LAW",20];
-_RangeBoxAT1 AddWeaponCargoGlobal ["TWC_Carl_Gustav",20];
-_RangeBoxAT1 AddMagazineCargoGlobal ["tf47_m3maaws_HE",20];
-_RangeBoxAT1 AddMagazineCargoGlobal ["tf47_m3maaws_HEAT",20];
+_RangeBoxAT1 AddWeaponCargoGlobal ["twc_l14A1_scoped",20];
+_RangeBoxAT1 AddMagazineCargoGlobal ["ukcw_l14a1_HE",20];
+_RangeBoxAT1 AddMagazineCargoGlobal ["ukcw_l14a1_HEAT",20];
 
 //Weapons2
 _RangeBoxRifle2 AddWeaponCargoGlobal ["UK3CB_BAF_L7A2",20];
@@ -283,7 +281,6 @@ _RangeBoxSniper AddMagazineCargoGlobal ["UK3CB_BAF_338_5Rnd_Tracer",100];
 _RangeBoxGrenade AddMagazineCargoGlobal  ["1Rnd_HE_Grenade_shell",100];
 _RangeBoxGrenade AddMagazineCargoGlobal  ["HandGrenade",100];
 _RangeBoxGrenade AddMagazineCargoGlobal ["SmokeShell",100];
-_RangeBoxGrenade AddMagazineCargoGlobal ["rhs_mag_m69",100];
 
 _CrewServedWepons AddMagazineCargoGlobal ["UK3CB_BAF_127_100Rnd",100];
 _CrewServedWepons AddMagazineCargoGlobal ["UK3CB_BAF_32Rnd_40mm_G_Box",100];

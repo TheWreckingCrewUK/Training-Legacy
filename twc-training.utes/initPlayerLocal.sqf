@@ -1,19 +1,3 @@
-if (isNil "ERA") then {
-	ERA = 0;
-};
-
-"ERA" addPublicVariableEventHandler {
-	_newEra = _this select 1;
-	
-	switch (_newEra) do {
-		case 0: {execVM "scripts\weaponLists\playerLoadouts\modern.sqf";};
-		case 1: {execVM "scripts\weaponLists\playerLoadouts\coin.sqf";};
-		case 2: {execVM "scripts\weaponLists\playerLoadouts\coldwar.sqf";};
-		case 3: {execVM "scripts\weaponLists\playerLoadouts\1990.sqf";};
-		default {hint "Something went wrong. \nPlease inform management.";};
-	};
-};
-
 //Trainer actions
 _everyone = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15"];
 
@@ -85,12 +69,4 @@ if ((str player) in _trainers) then {
 	
 }else{
 	isTrainer = false;
-};
-
-switch (ERA) do {
-	case 0: {execVM "scripts\weaponLists\playerLoadouts\modern.sqf";};
-	case 1: {execVM "scripts\weaponLists\playerLoadouts\coin.sqf";};
-	case 2: {execVM "scripts\weaponLists\playerLoadouts\coldwar.sqf";};
-	case 3: {execVM "scripts\weaponLists\playerLoadouts\1990.sqf";};
-	default {hint "Something went wrong. \nPlease inform management.";};
 };
