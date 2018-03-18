@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3594.2031,49.85733,3665.5464};
-		dir[]={0.59977603,-0.30590647,-0.73938483};
-		up[]={0.19271375,0.95206165,-0.23757145};
-		aside[]={-0.77661455,-2.9802322e-008,-0.62997615};
+		pos[]={3599.1467,53.725864,3616.3611};
+		dir[]={-0.91061258,-0.41062757,0.047092028};
+		up[]={-0.4100903,0.91180015,0.021207159};
+		aside[]={0.051647179,-9.7215889e-008,0.99869007};
 	};
 };
 binarizationWanted=0;
@@ -27,7 +27,7 @@ addons[]=
 {
 	"CUP_TrackedVehicles_Bulldog",
 	"UK3CB_BAF_Vehicles_Wildcat",
-	"parachute",
+	"TWC_Parachute",
 	"UK3CB_BAF_Vehicles_Apache",
 	"twc_modern",
 	"CUP_Weapons_AmmoBoxes",
@@ -97,7 +97,6 @@ addons[]=
 	"burnes_foxhound",
 	"CUP_WaterVehicles_LHD",
 	"Burnes_FV4034",
-	"twc_vehicles",
 	"UK3CB_BAF_Vehicles_LandRover",
 	"A3_Modules_F_Curator_Curator",
 	"twc_framework"
@@ -106,7 +105,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=61;
+		items=60;
 		class Item0
 		{
 			className="CUP_TrackedVehicles_Bulldog";
@@ -121,8 +120,8 @@ class AddonsMetaData
 		};
 		class Item2
 		{
-			className="parachute";
-			name="parachute";
+			className="TWC_Parachute";
+			name="TWC_Parachute";
 		};
 		class Item3
 		{
@@ -471,24 +470,19 @@ class AddonsMetaData
 		};
 		class Item57
 		{
-			className="twc_vehicles";
-			name="twc_vehicles";
-		};
-		class Item58
-		{
 			className="UK3CB_BAF_Vehicles_LandRover";
 			name="3CB BAF Vehicles - Land Rover";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item59
+		class Item58
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item60
+		class Item59
 		{
 			className="twc_framework";
 			name="twc_framework";
